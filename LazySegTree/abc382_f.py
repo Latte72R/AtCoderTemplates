@@ -1,3 +1,4 @@
+# https://github.com/Latte72R/AtCoderTemplates/blob/main/LazySegTree/abc382_f.py
 # 問題: 盤面上の横棒を落としたとき，各棒が止まる行を求める．
 # 理論: 遅延セグメント木は区間全体への操作を保留し，必要なときだけ子へ伝えて区間更新を高速化する．
 # 使い方: この設定は区間最小値・区間代入用．prod(l, r) で取得，apply(l, r, x) で代入する（[l, r)）．

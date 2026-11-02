@@ -1,3 +1,4 @@
+# https://github.com/Latte72R/AtCoderTemplates/blob/main/%E5%BC%B7%E9%80%A3%E7%B5%90%E6%88%90%E5%88%86%E5%88%86%E8%A7%A3/abc478_e.py
 # 問題: 頂点間の大小制約を満たす整数の割当が可能か判定し，可能なら割当例を出力する．
 # 理論: 有向グラフの相互に到達可能な頂点をまとめると，成分間のグラフは DAG（閉路のない有向グラフ）になる．
 # 使い方: label, group = scc(N, G, RG) で成分数・所属を得る．RG は逆向きのグラフ．construct で縮約グラフも作れる．

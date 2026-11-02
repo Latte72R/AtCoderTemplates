@@ -1,3 +1,4 @@
+# https://github.com/Latte72R/AtCoderTemplates/blob/main/Dijkstra/abc362_d_.py
 # 問題: 辺と頂点の両方にコストがあるグラフで，頂点1から各頂点への最小コストを求める．
 # 理論: 非負コストなら暫定距離が最小の頂点から距離を確定できる．頂点重みは到着時のコストに加える．
 # 使い方: dijkstra(N, graph, src=0, weight=A) で始点の重みも含む距離配列を得る．weight 省略時は辺重みのみ．

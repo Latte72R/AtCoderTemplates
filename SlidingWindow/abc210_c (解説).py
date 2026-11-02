@@ -1,3 +1,4 @@
+# https://github.com/Latte72R/AtCoderTemplates/blob/main/SlidingWindow/abc210_c%20%28%E8%A7%A3%E8%AA%AC%29.py
 # 問題: 長さ K の連続区間に含まれる値の種類数の最大値を求める．
 # 理論: 区間を1つずらすとき，出る要素と入る要素だけを更新すれば，区間全体を数え直す必要がない．
 # 使い方: 辞書に区間内の頻度を持ち，0になったキーを削除する．len(color_count) が種類数．全体で平均 O(N)．

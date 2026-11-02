@@ -1,3 +1,4 @@
+# https://github.com/Latte72R/AtCoderTemplates/blob/main/SegTree/a59_.py
 # 問題: 配列への1点代入と，指定区間の総和を求めるクエリを処理する．
 # 理論: 結合則を満たす演算 op と単位元があれば，区間の集約値を木で管理できる．
 # 使い方: SegTree(op, e, n, v) を構築し，set(p, x) で代入，prod(l, r) で [l, r) を取得．e は単位元を返す関数．

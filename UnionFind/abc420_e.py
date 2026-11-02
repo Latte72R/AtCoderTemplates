@@ -1,3 +1,4 @@
+# https://github.com/Latte72R/AtCoderTemplates/blob/main/UnionFind/abc420_e.py
 # 問題: 辺の追加と頂点の白黒反転を行い，指定頂点の連結成分に黒い頂点があるか判定する．
 # 理論: Union-Find の成分情報は根に持たせる．合算できる情報なら，併合時に2つの根の値をまとめられる．
 # 使い方: unite(x, y) で成分を併合し，blacks[root(x)] で成分内の黒頂点数を参照・更新する．

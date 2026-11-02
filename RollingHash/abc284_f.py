@@ -1,3 +1,4 @@
+# https://github.com/Latte72R/AtCoderTemplates/blob/main/RollingHash/abc284_f.py
 # 問題: 長さ 2N の文字列から連続する N 文字を除き，残りが除いた部分の逆順になる位置を探す．
 # 理論: 文字列を多項式の値として扱い，累積ハッシュと基数のべき乗から部分文字列のハッシュを取り出す．
 # 使い方: rh = RollingHash(s, base, mod)，rh.get(l, r) で s[l:r] を取得．同じ基数・法で比較する（衝突の可能性あり）．

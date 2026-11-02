@@ -1,3 +1,4 @@
+# https://github.com/Latte72R/AtCoderTemplates/blob/main/Dijkstra/typical_algorithm_d.py
 # 問題: 頂点番号が 0 始まりの重み付き有向グラフで，頂点0から頂点N-1への最短距離を求める．
 # 理論: 非負の辺重みでは，暫定距離が最小の頂点から確定する Dijkstra 法で最短距離を求められる．
 # 使い方: graph[u] に (v, 重み) を格納し，dist, prev = dijkstra(N, graph, src)．goal 指定で終点確定時に終了する．

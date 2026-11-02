@@ -1,3 +1,4 @@
+# https://github.com/Latte72R/AtCoderTemplates/blob/main/SegTree/chokudai_S001_j.py
 # 問題: 1から N の順列の転倒数（i < j かつ A[i] > A[j] となる組数）を求める．
 # 理論: 値ごとの出現回数を配列に持つと，値の範囲に含まれる要素数を区間和で求められる．
 # 使い方: 和の SegTree に頻度を格納し，prod(l, r) で値域 [l, r) の個数を取得．重複値は set(x, get(x) + 1) で追加する．

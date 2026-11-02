@@ -1,3 +1,4 @@
+# https://github.com/Latte72R/AtCoderTemplates/blob/main/CycleDetection/abc245_f.py
 # 問題: 有向グラフで，辺をたどり続けられる始点の個数を求める．
 # 理論: DFS の訪問中の頂点への辺は閉路を表す．探索完了の頂点への辺とは区別する．
 # 使い方: graph と状態配列を用意して各頂点から dfs(x) を呼ぶ．result に閉路へ到達できる頂点が残る．

@@ -1,3 +1,4 @@
+# https://github.com/Latte72R/AtCoderTemplates/blob/main/%E5%BA%A7%E6%A8%99%E5%9C%A7%E7%B8%AE/abc213_c.py
 # 問題: 点のある行・列だけを残し，各点の圧縮後の座標を求める．
 # 理論: 異なる値をソートして連番に置き換えると，大小関係と等値関係を保って添字を小さくできる．
 # 使い方: sorted(set(values)) を列挙して元の値から番号への辞書を作る．行・列は独立に圧縮する．O(N log N)．

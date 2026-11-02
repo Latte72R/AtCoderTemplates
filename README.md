@@ -28,6 +28,7 @@
 - [a59_.py](SegTree/a59_.py)：1点代入・区間和の基本例．
 - [abc157_E.py](SegTree/abc157_E.py)：区間 OR でビット集合・文字の種類数を管理．
 - [chokudai_S001_j.py](SegTree/chokudai_S001_j.py)：値ごとの出現数を区間和で管理し，転倒数を数える．
+- [abc343_f.py](SegTree/abc343_f.py)：上位2種類の値と個数をまとめる複合情報の例．`atcoder.segtree` を使用．
 
 ## [UnionFind](UnionFind/)
 
@@ -48,6 +49,7 @@
 素数 P を法とした組合せ数を求める．
 
 - [abc178_d.py](<nCk mod P/abc178_d.py>)：階乗・逆階乗を前計算し，`comb(n, k)` を O(1) で計算（n < MAX < P）．
+- [abc459_e.py](<nCk mod P/abc459_e.py>)：`LargeNCombination` で n が大きく r が小さい場合を扱う．逆階乗を前計算し，各問合せを O(r) で計算．
 
 ## [中国剰余定理](中国剰余定理/)
 
@@ -111,3 +113,10 @@
 
 - [abc415_c.py](<BitDP/abc415_c.py>)：1要素ずつ増やす集合の到達可否を判定．
 - [A23.py](<BitDP/A23.py>)：ビット OR による集合の合併と，最小コストの計算．
+
+## [素数・素因数分解](素数・素因数分解/)
+
+素数をまとめて列挙したり，整数を素因数と指数の組に分解したりする．
+
+- [abc412_e.py](素数・素因数分解/abc412_e.py)：`sieve` で上限 n 以下の素数を O(n log log n) で列挙．`count_exp` は階乗に含まれる素因数の指数を集計．
+- [abc280_d.py](素数・素因数分解/abc280_d.py)：`factorization` で整数 n を O(√n) で素因数と指数に分解．

@@ -1,3 +1,4 @@
+# https://github.com/Latte72R/AtCoderTemplates/blob/main/BitDP/A23.py
 # 問題: 各クーポンで無料になる品物が決まっているとき，全品物をそろえる最小クーポン枚数を求める．
 # 理論: 取得済み集合 s と追加分 coupon の和集合は s|coupon．集合ごとの最小コストをDPで管理できる．
 # 使い方: dp[0][0]=0 から，追加しない遷移と ns=s|coupon へコストを加える遷移を行う．O(M*2^N)．

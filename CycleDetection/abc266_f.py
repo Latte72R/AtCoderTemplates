@@ -1,3 +1,4 @@
+# https://github.com/Latte72R/AtCoderTemplates/blob/main/CycleDetection/abc266_f.py
 # 問題: 閉路が1つの連結無向グラフで，2頂点間の単純パスが一意かを判定する．
 # 理論: 無向 DFS では親への辺を除外し，訪問中の祖先への辺から閉路上の頂点を特定する．
 # 使い方: 連結な単一閉路グラフで dfs(0, -1) を呼ぶと，result[v] が閉路への所属を表す．

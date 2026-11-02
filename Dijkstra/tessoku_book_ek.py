@@ -1,3 +1,4 @@
+# https://github.com/Latte72R/AtCoderTemplates/blob/main/Dijkstra/tessoku_book_ek.py
 # 問題: 重み付き無向グラフで，頂点1から頂点Nへの最短経路を出力する．
 # 理論: 最短距離の更新時に直前の頂点を記録すれば，終点から逆にたどって経路を復元できる．
 # 使い方: dist, prev = dijkstra(N, graph, src, goal) の後，restore_path(prev, src, goal) で頂点列を得る．

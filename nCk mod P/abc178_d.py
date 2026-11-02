@@ -1,3 +1,4 @@
+# https://github.com/Latte72R/AtCoderTemplates/blob/main/nCk%20mod%20P/abc178_d.py
 # 問題: 3以上の整数を並べて和を S にする数列の個数を，素数 P で割った余りで求める．
 # 理論: 素数 P と n < P に対し，nCk = n! / (k!(n-k)!) を階乗と逆階乗の積として mod P で計算する．
 # 使い方: MAX を必要な n より大きく設定して前計算し，comb(n, k) を呼ぶ．前計算 O(MAX)，各問合せ O(1)．

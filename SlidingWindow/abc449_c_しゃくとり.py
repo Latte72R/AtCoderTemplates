@@ -1,3 +1,4 @@
+# https://github.com/Latte72R/AtCoderTemplates/blob/main/SlidingWindow/abc449_c_%E3%81%97%E3%82%83%E3%81%8F%E3%81%A8%E3%82%8A.py
 # 問題: 文字列で，同じ文字を持ち，添字の差が L 以上 R 以下の組を数える．
 # 理論: 現在位置から一定範囲にある過去の要素を，追加・削除しながら頻度配列で管理できる．
 # 使い方: 位置 i の集計前に i-L を追加し，集計後に i-R を削除する．count で対応する文字の個数を取得．O(N)．

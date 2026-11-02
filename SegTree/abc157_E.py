@@ -1,3 +1,4 @@
+# https://github.com/Latte72R/AtCoderTemplates/blob/main/SegTree/abc157_E.py
 # 問題: 文字列の1文字変更と，指定区間に含まれる文字の種類数を求めるクエリを処理する．
 # 理論: 集合をビット列で表すと和集合は OR になる．OR は結合則を満たし，単位元は 0．
 # 使い方: SegTree に op=OR，e=lambda: 0 を渡す．要素を 1 << 番号で表し，prod(l, r).bit_count() で種類数を得る．

@@ -1,3 +1,4 @@
+# https://github.com/Latte72R/AtCoderTemplates/blob/main/UnionFind/atc001_B.py
 # 問題: 頂点の連結成分を併合し，2頂点が同じ成分に属するかを判定する．
 # 理論: 頂点を根付き木で成分ごとに管理する．経路圧縮とランク併合により各操作は償却 O(α(N))．
 # 使い方: par・rank を初期化し，unite(x, y) で併合，same(x, y) で同一成分判定，root(x) で代表元を得る．
